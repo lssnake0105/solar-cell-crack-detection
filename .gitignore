@@ -1,0 +1,86 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.conda/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Python packaging
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Node
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local archives and temporary files
+archive_local/
+*_old/`r`nold/`r`nold_*/`r`n*_old*/`r`n*backup*
+*.bak
+*.tmp
+*.temp
+*.log
+
+# Data and generated outputs
+Defect/
+NoDefect/
+batch_result/
+results_svd/
+data/raw/
+data/interim/
+dataset/
+datasets/
+outputs/
+runs/
+logs/
+checkpoints/
+weights/
+
+# Local SVD segmentation artifacts
+svd_seg/dataset/
+svd_seg/runs/
+svd_seg/archives/
+svd_seg/overlays/
+
+# Model and experiment artifacts
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+*.pkl
+*.joblib
+*.zip
+*.rar
+*.7z
+
+# Secrets and local credentials
+.env
+*.key
+*.pem
+secrets.*
+config.local.*
+*token*
+*secret*
+*password*
+*credential*
+
+# Personal/course report copies that need manual redaction before release
+*3230105050*.pdf
+*李申适*.pdf
+
