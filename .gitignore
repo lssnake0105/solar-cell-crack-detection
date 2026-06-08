@@ -83,4 +83,6 @@ config.local.*
 # Personal/course report copies that need manual redaction before release
 *3230105050*.pdf
 *李申适*.pdf
+*3230105050*.pptx
+*李申适*.pptx
 

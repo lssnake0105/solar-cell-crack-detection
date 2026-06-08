@@ -105,9 +105,17 @@ python src\svd_seg\infer_overlay.py --data data\seg_dataset --weights models\bes
 
 Representative outputs are kept in `assets/` and `results/` for quick review.
 
-![Sample defect input](assets/sample_defect_input.jpg)
+The parallel overview below summarizes the main inspection flow: raw solar-cell imagery, manually marked defect regions, GUI-side intermediate comparison, and final skeleton-style overlay visualization.
 
-![Skeleton overlay result](results/skeleton_overlay_defect.jpg)
+![Parallel crack detection overview](assets/readme_parallel_overview.jpg)
+
+Selected supporting visuals:
+
+![Manual defect annotation](assets/parallel_manual_annotation.png)
+
+![GUI comparison view](assets/parallel_gui_comparison.png)
+
+![Skeleton overlay result](assets/parallel_skeleton_overlay_2.jpg)
 
 ![UNet overlay example](results/unet_overlay_example.png)
 
