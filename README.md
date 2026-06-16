@@ -105,6 +105,10 @@ python src\svd_seg\infer_overlay.py --data data\seg_dataset --weights models\bes
 
 Representative outputs are kept in `assets/` and `results/` for quick review.
 
+The workflow infographic below summarizes the end-to-end detection pipeline and supporting UNet segmentation branch.
+
+![Solar cell crack detection workflow](output/imagegen/solar-cell-crack-workflow-infographic.png)
+
 The parallel overview below summarizes the main inspection flow: raw solar-cell imagery, manually marked defect regions, GUI-side intermediate comparison, and final skeleton-style overlay visualization.
 
 ![Parallel crack detection overview](assets/readme_parallel_overview.jpg)
